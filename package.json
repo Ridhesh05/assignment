@@ -1,0 +1,28 @@
+{
+    "name": "iot-sensor-backend",
+    "version": "1.0.0",
+    "private": true,
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js"
+    },
+    "description": "",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Ridhesh05/assignment.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/Ridhesh05/assignment/issues"
+    },
+    "homepage": "https://github.com/Ridhesh05/assignment#readme",
+    "dependencies": {
+        "dotenv": "^17.2.3",
+        "express": "^5.2.1",
+        "mongoose": "^9.1.5",
+        "mqtt": "^5.14.1"
+    }
+}
