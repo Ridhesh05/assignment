@@ -1,10 +1,20 @@
-IoT Sensor Backend – Node.js Internship Pre-AssessmentOverviewThis project is a Node.js backend service built as part of a pre-assessment assignment. It ingests IoT sensor temperature readings, stores them in MongoDB, and exposes APIs to retrieve the latest reading for a device. In addition to REST APIs, the system includes an MQTT subscriber to simulate real-world IoT data ingestion.Tech Stack
-Node.js (18+ / 20 LTS recommended)
-Express.js - REST API framework
-MongoDB Atlas (Free Tier) - Cloud database
-Mongoose - ODM for MongoDB
-MQTT - IoT message protocol (using public broker)
-Postman / curl - API testing
+# IoT Sensor Backend – Node.js Internship Pre-Assessment
+
+## Overview
+
+This project is a Node.js backend service built as part of a pre-assessment assignment. It ingests IoT sensor temperature readings, stores them in MongoDB, and exposes APIs to retrieve the latest reading for a device. In addition to REST APIs, the system includes an MQTT subscriber to simulate real-world IoT data ingestion.
+
+---
+
+## Tech Stack
+
+- **Node.js** (18+ / 20 LTS recommended)
+- **Express.js** - REST API framework
+- **MongoDB Atlas** (Free Tier) - Cloud database
+- **Mongoose** - ODM for MongoDB
+- **MQTT** - IoT message protocol (using public broker)
+- **Postman / curl** - API testing
+
 ---
 
 ## System Architecture
@@ -381,53 +391,4 @@ This design is documented but not implemented to maintain assignment scope.
 - **Node.js Version**: Tested on Node.js 20 LTS
 - **MQTT Broker**: Public broker `test.mosquitto.org` used for demonstration
 - **Security**: Production deployments should use authenticated MQTT brokers and encrypted connections
-
----
-
-## Submission Checklist
-
-✅ GitHub repository with complete code  
-✅ README with setup instructions  
-✅ curl examples for API testing  
-✅ Postman usage documented  
-✅ MongoDB Atlas free tier configuration  
-✅ Node.js 18+/20 LTS specified  
-✅ Architecture diagrams included  
-✅ MQTT integration explained  
-
----
-
-## License
-
-This project is created for internship assessment purposes.
-
----
-
-## Contact
-
-For questions or clarifications, please reach out via the internship portal.
-```
-
----
-
-## ✅ **What This README Includes:**
-
-1. **Three Mermaid Diagrams** (auto-render on GitHub):
-   - High-level system architecture
-   - REST API sequence flow
-   - MQTT ingestion sequence flow
-
-2. **Complete curl + Postman Examples** with exact commands
-
-3. **Explicit MongoDB Atlas Free Tier** mention
-
-4. **Node.js 18+/20 LTS** requirement
-
-5. **Visual Project Structure** tree
-
-6. **Copy-Paste Ready** - no editing needed
-
----
-
-Just **copy this entire markdown**, save as `README.md`, push to GitHub, and you're done! The diagrams will render automatically on GitHub. 🚀
 
