@@ -1,23 +1,10 @@
-I'll create a complete, submission-ready README with visual diagrams using Mermaid syntax. This will render beautifully on GitHub.
-
-```md
-# IoT Sensor Backend – Node.js Internship Pre-Assessment
-
-## Overview
-
-This project is a Node.js backend service built as part of a pre-assessment assignment. It ingests IoT sensor temperature readings, stores them in MongoDB, and exposes APIs to retrieve the latest reading for a device. In addition to REST APIs, the system includes an MQTT subscriber to simulate real-world IoT data ingestion.
-
----
-
-## Tech Stack
-
-- **Node.js** (18+ / 20 LTS recommended)
-- **Express.js** - REST API framework
-- **MongoDB Atlas** (Free Tier) - Cloud database
-- **Mongoose** - ODM for MongoDB
-- **MQTT** - IoT message protocol (using public broker)
-- **Postman / curl** - API testing
-
+IoT Sensor Backend – Node.js Internship Pre-AssessmentOverviewThis project is a Node.js backend service built as part of a pre-assessment assignment. It ingests IoT sensor temperature readings, stores them in MongoDB, and exposes APIs to retrieve the latest reading for a device. In addition to REST APIs, the system includes an MQTT subscriber to simulate real-world IoT data ingestion.Tech Stack
+Node.js (18+ / 20 LTS recommended)
+Express.js - REST API framework
+MongoDB Atlas (Free Tier) - Cloud database
+Mongoose - ODM for MongoDB
+MQTT - IoT message protocol (using public broker)
+Postman / curl - API testing
 ---
 
 ## System Architecture
@@ -443,3 +430,4 @@ For questions or clarifications, please reach out via the internship portal.
 ---
 
 Just **copy this entire markdown**, save as `README.md`, push to GitHub, and you're done! The diagrams will render automatically on GitHub. 🚀
+
